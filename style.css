@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+header, footer{
+    background-color: green;
+    padding: 24px;
+    color: #fff;
+}
+
+header > .container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    border-top: 2px solid black;
+    border-width: 100%;
+    padding: 16px;
+    margin-top: 8px;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+    margin-left: 12px;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-hamburguer{
+    width: 42px;
+    cursor: pointer;
+}
+
+.menu-hamburguer span{
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.container-flex{
+    display: flex;
+}
+
+.container-img img{
+    width: 100%;
+    height: 980px;
+}
+
+section{
+    padding: 40px 0;
+}
+
+section h2{
+    margin-bottom: 44px;
+    font-size: 36px;
+}
+
+.jogos{
+    flex-wrap: wrap;
+}
+
+.jogos li{
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 90px;
+}
+
+.jogos li img{
+    max-width: 100%;
+}
+.jogos li, .price{
+    text-align: center;
+    display: inline;
+}
+
+.jogos li h3{
+    margin: 16px 0;
+    font-size: 24px;
+}
+
+.jogos li b{
+    font-size: 20px;
+}
+
+.item-central{
+    margin: 0 5%;
+}
+
+button{
+    /* margin-left: 8px; */
+    font-size: 18px;
+    background-color: green;
+    font-weight: bold;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.jogos button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer{
+    text-align: center;
+    font-size: 28px;
+}
+
+#checkout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw; 
+}
+
+.pagamento{
+    margin-top: 250px;
+    max-width: 1024px; 
+    width: 100%;
+}
+
+label, input, .confirmar{
+    font-size: 24px;
+}
+
+.confirmar{
+    color: #fff;
+}
+
+.campo-pagamento{
+    margin-top: 16px;  
+    /* text-align: center; */
+}
+
+.voltar{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+.campo-pagamento input, .confirmar{
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    /* margin: 0; */
+}
+
